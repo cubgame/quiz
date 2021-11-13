@@ -9,6 +9,9 @@
   const scoreLabel = document.querySelector("#result > p");
 
 
+  document.addEventListener("turbolinks:load", function() {
+    // ...
+  })
 
   const quizSet = [
     {i: "./q1.png", q: "スーパーカブが初めて発売された年は?" ,c: ["1958年", "1978年", "1968年"]},
